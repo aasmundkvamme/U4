@@ -1,0 +1,24 @@
+2024-11-27 21:04:53,428 - my_logger - DEBUG - key.id                                        1256959
+value.user_id                                   67355
+value.course_id                                 25541
+value.type                          StudentEnrollment
+value.created_at             2023-12-17T02:29:49.872Z
+value.updated_at             2024-09-24T09:56:44.315Z
+value.workflow_state                           active
+value.total_activity_time                     73262.0
+value.last_activity_at       2024-06-10T14:04:26.182Z
+sis_user_id                                          
+Name: 0, dtype: object
+2024-11-27 21:04:53,432 - my_logger - ERROR - Feil: ('The SQL contains 10 parameter markers, but 1 parameters were supplied', 'HY000')
+key.id                                        1256959
+value.user_id                                   67355
+value.course_id                                 25541
+value.type                          StudentEnrollment
+value.created_at             2023-12-17T02:29:49.872Z
+value.updated_at             2024-09-24T09:56:44.315Z
+value.workflow_state                           active
+value.total_activity_time                     73262.0
+value.last_activity_at       2024-06-10T14:04:26.182Z
+sis_user_id                                          
+Name: 0, dtype: object
+2024-11-27 21:04:53,433 - my_logger - INFO - Tidsbruk Canvas_Enrollments: 21.61298865900062 s

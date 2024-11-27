@@ -69,11 +69,12 @@ def timer_Canvas_History():
                     cursor.execute(query, visitedAt, visitedURL,
                                    assetReadableCategory, userId)
                     cnxn.commit()
+                logger.debug("Har lasta opp alle data til Azure")
             query = "EXEC dbo.Populate_dbo_Canvas_History"
             cursor.execute(query)
             cnxn.commit()
-            logging.debug("Data lasta opp til Canvas_History")
-    logging.info(f"Tidsbruk Canvas_History: {time.perf_counter() - start_Canvas_History} s")
+            logger.debug("Data lasta opp til Canvas_History")
+    logger.info(f"Tidsbruk Canvas_History: {time.perf_counter() - start_Canvas_History} s")
 
 rutine="History"
 if os.path.exists(f'loggfil-{rutine}.log'):

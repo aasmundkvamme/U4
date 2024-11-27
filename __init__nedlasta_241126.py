@@ -1969,7 +1969,7 @@ def timer_FS_EmneProgKobling():
     dataramme['Emnekode2'] = dataramme['Emnekode'] + '_' + dataramme['Versjonskode']
     dataramme['programEmneKode'] = dataramme['Studieprogramkode'] + '_' + dataramme['Emnekode'] + '_' + dataramme['Versjonskode']
     dataramme.loc[dataramme['Undervises_siste_ar'].isna(), 'Undervises_siste_termin'] = None
-    # emnekoblingar = dataramme.to_dict(orient='records')
+    dataramme = dataramme.where(pd.notnull(dataramme), "")
     emnekoblingar = dataramme.values.tolist()
 
     conn_str = os.environ["Connection_SQL"]

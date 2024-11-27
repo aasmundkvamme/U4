@@ -1,0 +1,25 @@
+import pandas
+import os
+import requests
+from datetime import datetime, date, timedelta
+import time
+import pyodbc
+conn_str = os.environ['Connection_SQL]
+
+with pyodbc.connect(conn_str) as connection:
+    try:
+        query = """
+        MERGE INTO [tabell] AS target 
+        USING (VALUES (?, ?)) AS source (var1, var2) 
+        ON target.[var1] = source.[var1]
+        WHEN MATCHED THEN
+            UPDATE SET target.[var2] = source.[var2]
+        WHEN NOT MATCHED THEN
+            INSERT ([var1], [var2]) VALUES (source.[var1], source.[var2]);
+        """
+        with connection.cursor() as cursor:
+            for data in data_to_insert:
+                cursor.execute(query, (data['var1'], data['var2']))
+            connection.commit()
+    except pyodbc.Error as exc:
+        raise exc # Kva får vi tilbake ved feil?

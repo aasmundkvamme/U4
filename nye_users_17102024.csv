@@ -1,0 +1,4 @@
+key.id,value.deleted_at,value.storage_quota,value.lti_context_id,value.created_at,value.updated_at,value.workflow_state,value.sortable_name,value.avatar_image_url,value.avatar_image_source,value.avatar_image_updated_at,value.short_name,value.last_logged_out,value.pronouns,value.merged_into_user_id,value.locale,value.name,value.time_zone,value.uuid,value.school_name,value.school_position,value.public,meta.ts,meta.action
+109050,,,,2024-10-18T02:20:03.929Z,2024-10-18T03:10:00.232Z,registered,"Transeth, Thore",,,,,,,,,Thore Transeth,,kVQVfhDHAP3YbKXH4cfYNGsHyLF1nwDybQgf1Es8,,,,2024-10-18T05:02:18.261Z,U
+109049,,,,2024-10-18T02:20:02.976Z,2024-10-18T03:10:00.232Z,registered,"Rebnord, Kristian",,,,,,,,,Kristian Rebnord,,IrBn62t8y7newWNBf1SWtegX6GNgKljPP0HkNZhP,,,,2024-10-18T05:02:18.261Z,U
+109048,,,,2024-10-18T02:20:01.936Z,2024-10-18T03:10:00.232Z,registered,"Grytten, Anja",,,,,,,,,Anja Grytten,,sT27LLBgb0INqlSX2hsOMW7HWc5RkAc7uAiHTxCL,,,,2024-10-18T05:02:18.261Z,U

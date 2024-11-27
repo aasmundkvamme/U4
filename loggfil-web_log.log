@@ -1,0 +1,30 @@
+2024-11-21 08:40:19,512 - my_logger - DEBUG - Dette er en debug-melding
+2024-11-21 08:40:19,512 - my_logger - INFO - Dette er en info-melding
+2024-11-21 08:40:19,512 - my_logger - WARNING - Dette er en advarsel
+2024-11-21 08:40:19,512 - my_logger - ERROR - Dette er en feil
+2024-11-21 08:40:19,512 - my_logger - CRITICAL - Dette er kritisk
+2024-11-21 08:50:24,889 - my_logger - DEBUG - Dette er en debug-melding
+2024-11-21 08:50:24,889 - my_logger - INFO - Dette er en info-melding
+2024-11-21 08:50:24,889 - my_logger - WARNING - Dette er en advarsel
+2024-11-21 08:50:24,889 - my_logger - ERROR - Dette er en feil
+2024-11-21 08:50:24,889 - my_logger - CRITICAL - Dette er kritisk
+2024-11-21 08:51:00,071 - my_logger - DEBUG - Dette er en debug-melding
+2024-11-21 08:51:00,071 - my_logger - INFO - Dette er en info-melding
+2024-11-21 08:51:00,071 - my_logger - WARNING - Dette er en advarsel
+2024-11-21 08:51:00,071 - my_logger - ERROR - Dette er en feil
+2024-11-21 08:51:00,071 - my_logger - CRITICAL - Dette er kritisk
+2024-11-21 08:51:39,945 - my_logger - DEBUG - Dette er en debug-melding
+2024-11-21 08:51:39,945 - my_logger - INFO - Dette er en info-melding
+2024-11-21 08:51:39,945 - my_logger - WARNING - Dette er en advarsel
+2024-11-21 08:51:39,945 - my_logger - ERROR - Dette er en feil
+2024-11-21 08:51:39,945 - my_logger - CRITICAL - Dette er kritisk
+2024-11-21 08:52:03,141 - my_logger - DEBUG - Dette er en debug-melding
+2024-11-21 08:52:03,142 - my_logger - INFO - Dette er en info-melding
+2024-11-21 08:52:03,142 - my_logger - WARNING - Dette er en advarsel
+2024-11-21 08:52:03,142 - my_logger - ERROR - Dette er en feil
+2024-11-21 08:52:03,142 - my_logger - CRITICAL - Dette er kritisk
+2024-11-21 09:01:08,492 - my_logger - DEBUG - Dette er en debug-melding
+2024-11-21 09:01:08,492 - my_logger - INFO - Dette er en info-melding
+2024-11-21 09:01:08,492 - my_logger - WARNING - Dette er en advarsel
+2024-11-21 09:01:08,493 - my_logger - ERROR - Dette er en feil
+2024-11-21 09:01:08,493 - my_logger - CRITICAL - Dette er kritisk

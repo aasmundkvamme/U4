@@ -1,0 +1,56 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-gateway.instructure.com:443
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "POST /ids/auth/login HTTP/1.1" 200 None
+INFO:root:Sender søk til https://api-gateway.instructure.com/dap/query/canvas/table/accounts/data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-gateway.instructure.com:443
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "POST /dap/query/canvas/table/accounts/data HTTP/1.1" 200 116
+INFO:root:Vent til fila blir tilgjengelig: https://api-gateway.instructure.com/dap/query/canvas/table/accounts/data/job/298c797b-6494-4938-8ad8-431dcf7a1e29
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-gateway.instructure.com:443
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap//job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap/job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 200 116
+INFO:root:Vent til fila blir tilgjengelig: https://api-gateway.instructure.com/dap/query/canvas/table/accounts/data/job/298c797b-6494-4938-8ad8-431dcf7a1e29
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-gateway.instructure.com:443
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap//job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap/job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 200 116
+INFO:root:Vent til fila blir tilgjengelig: https://api-gateway.instructure.com/dap/query/canvas/table/accounts/data/job/298c797b-6494-4938-8ad8-431dcf7a1e29
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-gateway.instructure.com:443
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap//job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap/job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 200 116
+INFO:root:Vent til fila blir tilgjengelig: https://api-gateway.instructure.com/dap/query/canvas/table/accounts/data/job/298c797b-6494-4938-8ad8-431dcf7a1e29
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-gateway.instructure.com:443
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap//job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap/job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 200 116
+INFO:root:Vent til fila blir tilgjengelig: https://api-gateway.instructure.com/dap/query/canvas/table/accounts/data/job/298c797b-6494-4938-8ad8-431dcf7a1e29
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-gateway.instructure.com:443
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap//job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap/job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 200 116
+INFO:root:Vent til fila blir tilgjengelig: https://api-gateway.instructure.com/dap/query/canvas/table/accounts/data/job/298c797b-6494-4938-8ad8-431dcf7a1e29
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-gateway.instructure.com:443
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap//job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap/job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 200 116
+INFO:root:Vent til fila blir tilgjengelig: https://api-gateway.instructure.com/dap/query/canvas/table/accounts/data/job/298c797b-6494-4938-8ad8-431dcf7a1e29
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-gateway.instructure.com:443
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap//job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap/job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 200 116
+INFO:root:Vent til fila blir tilgjengelig: https://api-gateway.instructure.com/dap/query/canvas/table/accounts/data/job/298c797b-6494-4938-8ad8-431dcf7a1e29
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-gateway.instructure.com:443
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap//job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap/job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 200 116
+INFO:root:Vent til fila blir tilgjengelig: https://api-gateway.instructure.com/dap/query/canvas/table/accounts/data/job/298c797b-6494-4938-8ad8-431dcf7a1e29
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-gateway.instructure.com:443
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap//job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap/job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 200 116
+INFO:root:Vent til fila blir tilgjengelig: https://api-gateway.instructure.com/dap/query/canvas/table/accounts/data/job/298c797b-6494-4938-8ad8-431dcf7a1e29
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-gateway.instructure.com:443
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap//job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap/job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 200 116
+INFO:root:Vent til fila blir tilgjengelig: https://api-gateway.instructure.com/dap/query/canvas/table/accounts/data/job/298c797b-6494-4938-8ad8-431dcf7a1e29
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-gateway.instructure.com:443
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap//job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 301 0
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "GET /dap/job/298c797b-6494-4938-8ad8-431dcf7a1e29 HTTP/1.1" 200 348
+INFO:root:Fila(ne) er tilgjengeleg(e): https://api-gateway.instructure.com/dap/query/canvas/table/accounts/data/job/298c797b-6494-4938-8ad8-431dcf7a1e29
+INFO:root:Totalt for accounts_finn_filer: 62.599080799998774
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-gateway.instructure.com:443
+DEBUG:urllib3.connectionpool:https://api-gateway.instructure.com:443 "POST /dap/object/url HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): data-access-platform-output-prod-dub.s3.eu-west-1.amazonaws.com:443
+DEBUG:urllib3.connectionpool:https://data-access-platform-output-prod-dub.s3.eu-west-1.amazonaws.com:443 "GET /output/rootAccountId%3DKjYXFlWyqIP306jMLrOxOE6QSU1S8oF5m5tfbXyd/queryId%3D298c797b-6494-4938-8ad8-431dcf7a1e29/part-00000-0bc95dce-a44a-4d23-8333-247a7db8d856-c000.csv.gz?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBcaCWV1LXdlc3QtMSJHMEUCIGRqO3HelzYItZN6FlKDxBvjDXOO1Xv7IJVrjvYzKbD2AiEA6P024Dw%2BE4qdk1NNGk10EmJ07tNsUdsHhZTLYBGB04wqrQIIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgw1MzIyMDUzMDEzMzQiDKI7JBRt4nSafZVLkiqBAhAU5V0wDXa%2BhcimNvTXboH5HuzV5WsA6SHtnH4HELcbK04JSq2neKItTiUoOl9mI2L1pueSsX%2Bkdn%2Fr99aJrHmA5A3xjDerUCIdp49YWV%2Bb4PqYWbR8UKWd5MXG0wJmduczPtZZ32a4OPOUmvpeWaareac9AjTEbIaIyciDvjALF3pu9UOHZfN8GTycuuN9pH17y59%2BhOVt2rI3Nf84eyyuSE8CsLz%2BTuMGFhDZuvKsyt01bzoI9iIhSjTfebt8Q8ibZiwnnXYestHnhZNYYKsS%2B6M24loE%2BgfjNK3ZcXCwgiPZNIFvVLA4TcoIPLQaEqm8dBd8VRZM99jQldSz%2BEUJMPShjrkGOp0BZMQpuYCo6kNTvTNwJ6lfwFXqV2bXokwbsEG8w66L4Tz93KYHLSDeOnRtRtIoBMRzkkEu9Ot%2BKqX68EXJsuVCA77z%2FEQi8HtekDempssdyp50RyKM3r7KW9wRyesi4vCv8WpH4efTkO%2F1%2Fm6If1juBYVRiu3Ej30D3UFz1bOKXBiN9MZfo7xxeaJrEb6y2qSFNcK1%2FS5wX9l6TMkJ%2Bg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241031T141519Z&X-Amz-SignedHeaders=host&X-Amz-Expires=900&X-Amz-Credential=ASIAXX2PINZLAQGRXHF6%2F20241031%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=6031c59579c9206f35563360d976b7d118c0c16e63f9b7c37db8113feab67ba7 HTTP/1.1" 200 324495
+INFO:root:Totalt for accounts_les_filer: 0.9527866000007634

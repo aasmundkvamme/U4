@@ -1,0 +1,24 @@
+2024-11-22 09:05:17,003 - my_logger - DEBUG - CD2_client_id: eu-west-1#5769f256-27d2-48c0-a388-48a06426dceb
+2024-11-22 09:05:17,004 - my_logger - DEBUG - CD2_client_secret: cOMQASDKY9s7kxTzqrzxrelFFxSboysH-N8vHa2F6QI
+2024-11-22 09:05:17,004 - my_logger - DEBUG - conn_str: Driver={ODBC Driver 18 for SQL Server};Server=tcp:hvl-data-db-server.database.windows.net,1433;Database=HVL-db;Uid=Admin-hvl;Pwd=BergenByErFin1;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;
+2024-11-22 09:15:41,203 - my_logger - DEBUG - CD2_client_id: eu-west-1#5769f256-27d2-48c0-a388-48a06426dceb
+2024-11-22 09:15:41,204 - my_logger - DEBUG - CD2_client_secret: cOMQASDKY9s7kxTzqrzxrelFFxSboysH-N8vHa2F6QI
+2024-11-22 09:15:41,204 - my_logger - DEBUG - conn_str: Driver={ODBC Driver 18 for SQL Server};Server=tcp:hvl-data-db-server.database.windows.net,1433;Database=HVL-db;Uid=Admin-hvl;Pwd=BergenByErFin1;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;
+2024-11-22 09:17:00,978 - my_logger - DEBUG - CD2_client_id: eu-west-1#1505cc4e-f9aa-41d5-a364-214699ebe66b
+2024-11-22 09:17:00,980 - my_logger - DEBUG - CD2_client_secret: H0BAdlBVfSXps5KmKNFEu9e_fXhpDGc_ksjD0Fm2cH4
+2024-11-22 09:17:00,980 - my_logger - DEBUG - conn_str: Driver={ODBC Driver 18 for SQL Server};Server=tcp:hvl-data-db-server.database.windows.net,1433;Database=HVL-db;Uid=Admin-hvl;Pwd=BergenByErFin1;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;
+2024-11-22 09:17:01,354 - my_logger - DEBUG - Har henta access_token
+2024-11-22 09:19:51,546 - my_logger - DEBUG - CD2_client_id: eu-west-1#1505cc4e-f9aa-41d5-a364-214699ebe66b
+2024-11-22 09:19:51,546 - my_logger - DEBUG - CD2_client_secret: H0BAdlBVfSXps5KmKNFEu9e_fXhpDGc_ksjD0Fm2cH4
+2024-11-22 09:19:51,547 - my_logger - DEBUG - conn_str: Driver={ODBC Driver 18 for SQL Server};Server=tcp:hvl-data-db-server.database.windows.net,1433;Database=HVL-db;Uid=Admin-hvl;Pwd=BergenByErFin1;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;
+2024-11-22 09:19:51,901 - my_logger - DEBUG - Har henta access_token
+2024-11-22 09:19:52,150 - my_logger - DEBUG - pseudonyms er sist oppdatert (Azure): 2024-11-22T07:25:38Z
+2024-11-22 09:20:01,228 - my_logger - DEBUG - pseudonyms er sist oppdatert (Azure): 2024-11-22T07:25:38Z
+2024-11-22 09:49:19,992 - my_logger - DEBUG - Har henta access_token
+2024-11-22 09:49:20,273 - my_logger - DEBUG - pseudonyms er sist oppdatert (Azure): 2024-11-22T07:25:38Z
+2024-11-22 09:49:29,637 - my_logger - DEBUG - pseudonyms er sist oppdatert (Azure): 2024-11-22T07:25:38Z
+2024-11-22 10:53:59,818 - my_logger - DEBUG - Har henta access_token
+2024-11-22 10:54:00,092 - my_logger - DEBUG - pseudonyms er sist oppdatert (Azure): 2024-11-20T07:25:38Z
+2024-11-22 11:36:18,369 - my_logger - DEBUG - Har henta access_token
+2024-11-22 11:36:18,642 - my_logger - DEBUG - pseudonyms er sist oppdatert (Azure): 2024-11-20T07:25:38Z
+2024-11-22 11:36:27,662 - my_logger - DEBUG - pseudonyms er sist oppdatert (Azure): 2024-11-22T09:23:17Z

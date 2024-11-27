@@ -1,0 +1,7 @@
+2024-11-27 13:36:41,841 - my_logger - DEBUG - Hentar terminar
+2024-11-27 13:36:41,866 - my_logger - DEBUG - Det er 18 terminar
+2024-11-27 13:36:42,062 - my_logger - DEBUG - Hentar emne
+2024-11-27 13:36:42,480 - my_logger - DEBUG - Det er 1692 emne
+2024-11-27 13:36:43,333 - my_logger - DEBUG - enrollments er sist oppdatert (Azure): 2024-10-24T07:06:15Z
+2024-11-27 13:36:50,422 - my_logger - DEBUG - Skal hente data frå 2 filar.
+2024-11-27 13:36:51,171 - my_logger - DEBUG - Pakker ut fil.

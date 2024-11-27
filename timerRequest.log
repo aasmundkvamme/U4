@@ -11755,3 +11755,565 @@ DEBUG:my_logger:Inserting ØSS119 1 LOG 2023 VÅR   ØSS119_1 LOG_ØSS119_1
 DEBUG:my_logger:Inserting ØSS119 1 ØAU3 2023 VÅR   ØSS119_1 ØAU3_ØSS119_1
 DEBUG:my_logger:Inserting ØSS120 1 ØAU3 2024 HØST   ØSS120_1 ØAU3_ØSS120_1
 INFO:root:Tidsbruk FS_EmneProgKobling: 454.525622178 s
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 274, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 112, in timer_Canvas_Enrollments
+    logger("Hentar emne")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 156, in timer_Canvas_Enrollments
+    resultat = akv_query_canvas_graphql(queryCanvas, variables)
+  File "/home/aasmund/U4/test_Enrollments.py", line 43, in akv_query_canvas_graphql
+    'Authorization': f'Basic {os.environ["tokenCanvas"]}',
+  File "/usr/lib/python3.10/os.py", line 680, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'tokenCanvas'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 274, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 181, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:Hentar data om emne 26654
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 157, in timer_Canvas_Enrollments
+    resultat = akv_query_canvas_graphql(queryCanvas, variables)
+  File "/home/aasmund/U4/test_Enrollments.py", line 43, in akv_query_canvas_graphql
+    'Authorization': f'Basic {os.environ["tokenCanvas"]}',
+  File "/usr/lib/python3.10/os.py", line 680, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'tokenCanvas'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 275, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 182, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:Hentar data om emne 26654
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 157, in timer_Canvas_Enrollments
+    resultat = akv_query_canvas_graphql(queryCanvas, variables)
+  File "/home/aasmund/U4/test_Enrollments.py", line 46, in akv_query_canvas_graphql
+    svar = requests.post(
+AttributeError: module 'requests' has no attribute 'post'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 275, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 182, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:Hentar data om emne 26654
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 158, in timer_Canvas_Enrollments
+    resultat = akv_query_canvas_graphql(queryCanvas, variables)
+  File "/home/aasmund/U4/test_Enrollments.py", line 46, in akv_query_canvas_graphql
+    svar = requests.post(
+AttributeError: module 'requests' has no attribute 'post'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 276, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 183, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:Hentar data om emne 26654
+DEBUG:my_logger:{'Authorization': 'Basic 10747~lGBNJqxBXPlYOYvb8lHvCNn9yXQo91Gu6LC3vfySqhrVl0F2hjzKNyD8KBVOsGKL'}
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 159, in timer_Canvas_Enrollments
+    resultat = akv_query_canvas_graphql(queryCanvas, variables)
+  File "/home/aasmund/U4/test_Enrollments.py", line 47, in akv_query_canvas_graphql
+    svar = requests.post(
+AttributeError: module 'requests' has no attribute 'post'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 277, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 184, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:Hentar data om emne 26654
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 158, in timer_Canvas_Enrollments
+    resultat = akv_query_canvas_graphql(queryCanvas, variables)
+  File "/home/aasmund/U4/test_Enrollments.py", line 46, in akv_query_canvas_graphql
+    svar = requests.post(
+AttributeError: module 'requests' has no attribute 'post'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 276, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 183, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:Hentar data om emne 26654
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 47, in akv_query_canvas_graphql
+    svar = requests.post(
+AttributeError: module 'requests' has no attribute 'post'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 161, in timer_Canvas_Enrollments
+    resultat = akv_query_canvas_graphql(queryCanvas, variables)
+  File "/home/aasmund/U4/test_Enrollments.py", line 56, in akv_query_canvas_graphql
+    raise Exception(f"Feil i spørjing med kode {svar.status_code}. {query}")
+UnboundLocalError: local variable 'svar' referenced before assignment
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 279, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 186, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:Hentar data om emne 26654
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 47, in akv_query_canvas_graphql
+    svar = requests.post(
+AttributeError: module 'requests' has no attribute 'post'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 161, in timer_Canvas_Enrollments
+    resultat = akv_query_canvas_graphql(queryCanvas, variables)
+  File "/home/aasmund/U4/test_Enrollments.py", line 56, in akv_query_canvas_graphql
+    raise Exception(f"Feil i spørjing med kode {svar.status_code}. {query}")
+UnboundLocalError: local variable 'svar' referenced before assignment
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 279, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 186, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:Hentar data om emne 26654
+DEBUG:my_logger:Hentar data frå emne26654.
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 195, in timer_Canvas_Enrollments
+    resultat = akv_canvas_REST(url)
+  File "/home/aasmund/U4/test_Enrollments.py", line 76, in akv_canvas_REST
+    respons = requests.get(url, headers=hodeCanvas, params=parametreCanvas)
+AttributeError: module 'requests' has no attribute 'get'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 314, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 221, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:Hentar data frå emne26654.
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 197, in timer_Canvas_Enrollments
+    resultat = akv_canvas_REST(url)
+  File "/home/aasmund/U4/test_Enrollments.py", line 78, in akv_canvas_REST
+    respons = requests.get(url, headers=hodeCanvas, params=parametreCanvas)
+AttributeError: module 'requests' has no attribute 'get'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 316, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 223, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:Hentar data frå emne 26654
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 197, in timer_Canvas_Enrollments
+    resultat = akv_canvas_REST(url)
+  File "/home/aasmund/U4/test_Enrollments.py", line 78, in akv_canvas_REST
+    respons = requests.get(url, headers=hodeCanvas, params=parametreCanvas)
+AttributeError: module 'requests' has no attribute 'get'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 316, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 223, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:Hentar data frå emne https://hvl.instructure.com/api/v1/courses/26654/users
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 197, in timer_Canvas_Enrollments
+    resultat = akv_canvas_REST(url)
+  File "/home/aasmund/U4/test_Enrollments.py", line 78, in akv_canvas_REST
+    respons = requests.get(url, headers=hodeCanvas, params=parametreCanvas)
+AttributeError: module 'requests' has no attribute 'get'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 316, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 223, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:Hentar data frå emne https://hvl.instructure.com:443/api/v1/courses/26654/users
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 197, in timer_Canvas_Enrollments
+    resultat = akv_canvas_REST(url)
+  File "/home/aasmund/U4/test_Enrollments.py", line 78, in akv_canvas_REST
+    respons = requests.get(url, headers=hodeCanvas, params=parametreCanvas)
+AttributeError: module 'requests' has no attribute 'get'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 316, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 223, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:Hentar data frå emne https://hvl.instructure.com:443/api/v1/courses/26654/users
+DEBUG:my_logger:Skal hente data
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 198, in timer_Canvas_Enrollments
+    resultat = akv_canvas_REST(url)
+  File "/home/aasmund/U4/test_Enrollments.py", line 79, in akv_canvas_REST
+    respons = requests.get(url, headers=hodeCanvas, params=parametreCanvas)
+AttributeError: module 'requests' has no attribute 'get'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 317, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 224, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:Hentar data frå emne https://hvl.instructure.com:443/api/v1/courses/26654/users
+DEBUG:my_logger:Skal hente data
+DEBUG:my_logger:<Response [200]>
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 198, in timer_Canvas_Enrollments
+    resultat = akv_canvas_REST(url)
+  File "/home/aasmund/U4/test_Enrollments.py", line 90, in akv_canvas_REST
+    dataliste.append([element['id'], element['name'], element['start_at'], element['end_at']])
+KeyError: 'start_at'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 317, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 224, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:Hentar data frå emne 26654
+DEBUG:my_logger:Respons: https://idp.feide.no/simplesaml/module.php/feide/selectorg?AuthState=_d923cec97dbd90bf08efd19c1676dad04c921282dc%3Ahttps%3A%2F%2Fidp.feide.no%2Fsimplesaml%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttp%253A%252F%252Fhvl2.instructure.com%252Fsaml2%26cookieTime%3D1732706473
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 196, in timer_Canvas_Enrollments
+    resultat = akv_query_canvas_graphql(queryCanvas, variables)
+  File "/home/aasmund/U4/test_Enrollments.py", line 58, in akv_query_canvas_graphql
+    return svar.json()
+  File "/usr/local/lib/python3.10/dist-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 317, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 224, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:Hentar data frå emne 26654
+DEBUG:my_logger:<Response [200]>
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 197, in timer_Canvas_Enrollments
+    resultat = akv_canvas_REST(url)
+  File "/home/aasmund/U4/test_Enrollments.py", line 89, in akv_canvas_REST
+    dataliste.append([element['id'], element['name'], element['start_at'], element['end_at']])
+KeyError: 'start_at'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 316, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 223, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:Hentar data frå emne 26654
+DEBUG:my_logger:<Response [200]>
+DEBUG:my_logger:Hentmeir = False
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 198, in timer_Canvas_Enrollments
+    resultat = akv_canvas_REST(url)
+  File "/home/aasmund/U4/test_Enrollments.py", line 90, in akv_canvas_REST
+    dataliste.append([element['id'], element['name'], element['start_at'], element['end_at']])
+KeyError: 'start_at'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 317, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 224, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:Hentar data frå emne 26654
+DEBUG:my_logger:<Response [200]>
+DEBUG:my_logger:Hentmeir = False
+DEBUG:my_logger:Hentar ut data
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 199, in timer_Canvas_Enrollments
+    resultat = akv_canvas_REST(url)
+  File "/home/aasmund/U4/test_Enrollments.py", line 91, in akv_canvas_REST
+    dataliste.append([element['id'], element['name'], element['start_at'], element['end_at']])
+KeyError: 'start_at'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 318, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 225, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 220, in timer_Canvas_Enrollments
+    resultat, sist_oppdatert = akv_les_CD2_tabell(tabell)
+  File "/home/aasmund/U4/test_Enrollments.py", line 138, in akv_les_CD2_tabell
+    df = pd.read_csv(data, sep=",")
+AttributeError: module 'pandas' has no attribute 'read_csv'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 340, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 247, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:enrollments er sist oppdatert (Azure): 2024-10-24T07:06:15Z
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 220, in timer_Canvas_Enrollments
+    resultat, sist_oppdatert = akv_les_CD2_tabell(tabell)
+  File "/home/aasmund/U4/test_Enrollments.py", line 138, in akv_les_CD2_tabell
+    df = pd.read_csv(data, sep=",")
+AttributeError: module 'pandas' has no attribute 'read_csv'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 340, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 247, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:enrollments er sist oppdatert (Azure): 2024-10-24T07:06:15Z
+DEBUG:my_logger:Skal hente data frå 2 filar.
+DEBUG:my_logger:Pakker ut fil.
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 221, in timer_Canvas_Enrollments
+    resultat, sist_oppdatert = akv_les_CD2_tabell(tabell)
+  File "/home/aasmund/U4/test_Enrollments.py", line 139, in akv_les_CD2_tabell
+    df = pd.read_csv(data, sep=",")
+AttributeError: module 'pandas' has no attribute 'read_csv'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 341, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 248, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:enrollments er sist oppdatert (Azure): 2024-10-24T07:06:15Z
+DEBUG:my_logger:Skal hente data frå 2 filar.
+DEBUG:my_logger:Pakker ut fil.
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 224, in timer_Canvas_Enrollments
+    resultat, sist_oppdatert = akv_les_CD2_tabell(tabell)
+  File "/home/aasmund/U4/test_Enrollments.py", line 142, in akv_les_CD2_tabell
+    df = pd.read_csv(data, sep=",")
+AttributeError: module 'pandas' has no attribute 'read_csv'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 344, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 251, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable
+DEBUG:my_logger:Hentar terminar
+DEBUG:my_logger:Det er 18 terminar
+DEBUG:my_logger:Hentar emne
+DEBUG:my_logger:Det er 1692 emne
+DEBUG:my_logger:enrollments er sist oppdatert (Azure): 2024-10-24T07:06:15Z
+DEBUG:my_logger:Skal hente data frå 2 filar.
+DEBUG:my_logger:Pakker ut fil.
+ERROR:root:Feil i timer_Canvas_Enrollments
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 224, in timer_Canvas_Enrollments
+    resultat, sist_oppdatert = akv_les_CD2_tabell(tabell)
+  File "/home/aasmund/U4/test_Enrollments.py", line 142, in akv_les_CD2_tabell
+    df = pd.read_csv(data, sep=",")
+AttributeError: module 'pandas' has no attribute 'read_csv'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aasmund/U4/test_Enrollments.py", line 343, in <module>
+    timer_Canvas_Enrollments()
+  File "/home/aasmund/U4/test_Enrollments.py", line 250, in timer_Canvas_Enrollments
+    logger(f"Feil i emne {emne}.")
+TypeError: 'Logger' object is not callable

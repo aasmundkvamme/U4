@@ -49,7 +49,6 @@ def timer_Canvas_History():
             logger.debug(f"Henta {len(user_ids)} brukarar")
             for user_id in user_ids:
                 url = url_template.format(user_id)
-                logger.debug(f"Skal hente history for {user_id}")
                 response = requests.get(url, headers=headers)
                 for item in response.json():
                     try:
@@ -69,7 +68,6 @@ def timer_Canvas_History():
                     cursor.execute(query, visitedAt, visitedURL,
                                    assetReadableCategory, userId)
                     cnxn.commit()
-                logger.debug("Har lasta opp alle data til Azure")
             query = "EXEC dbo.Populate_dbo_Canvas_History"
             cursor.execute(query)
             cnxn.commit()

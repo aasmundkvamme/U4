@@ -218,7 +218,6 @@ def timer_Canvas_Enrollments():
 
     enrollments_data = []
     for emne in aktuelle_emne:
-        variables = {"courseId": emne}
         try:
             tabell = "enrollments"
             resultat, sist_oppdatert = akv_les_CD2_tabell(tabell)

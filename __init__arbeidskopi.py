@@ -1835,9 +1835,18 @@ def timer_Canvas_History():
                 url = url_template.format(user_id)
                 response = requests.get(url, headers=headers)
                 for item in response.json():
-                    visitedAt = item['visited_at']
-                    visitedURL = item['visited_url']
-                    assetReadableCategory = item['asset_readable_category']
+                    try:
+                        visitedAt = item['visited_at']
+                    except:
+                        visitedAt = ''
+                    try:
+                        visitedURL = item['visited_url']
+                    except:
+                        visitedURL = ''
+                    try:
+                        assetReadableCategory = item['asset_readable_category']
+                    except:
+                        assetReadableCategory = ''
                     userId = user_id
                     query = "INSERT INTO [stg].[Canvas_History] (visited_at, visited_url, asset_readable_category, user_id) VALUES (?,?,?,?)"
                     cursor.execute(query, visitedAt, visitedURL,

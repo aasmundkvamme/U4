@@ -203,7 +203,6 @@ def timer_Canvas_Enrollments():
             query = """
             SELECT ALL * FROM [stg].[Canvas_Courses]
             """
-            cursor.execute(query)
             row = cursor.fetchall()
             aktuelle_emne = []
             for emne in row:

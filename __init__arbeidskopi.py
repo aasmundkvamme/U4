@@ -91,7 +91,7 @@ def akv_query_canvas_graphql(query, variable):
     :raises Exception: if the request fails
     """
     hode = {
-        'Authorization': f'Basic {os.environ["tokenCanvas"]}',
+        'Authorization': f'Bearer {os.environ["tokenCanvas"]}',
     }
     GraphQLurl = "https://hvl.instructure.com/api/graphql/"
     svar = requests.post(
@@ -110,7 +110,7 @@ def akv_query_canvas_graphql(query, variable):
 def akv_query_FS_graphql(query, variable):
     hode = {
         'Accept': 'application/json;version=1',
-        'Authorization': f'Basic {os.environ["tokenFS"]}',
+        'Authorization': f'Bearer {os.environ["tokenFS"]}',
         "Feature-Flags": "beta, experimental"
     }
     GraphQLurl = "https://api.fellesstudentsystem.no/graphql/"
@@ -1826,7 +1826,7 @@ def timer_Canvas_History():
                 FROM [stg].[Canvas_Users]
                 LEFT JOIN [stg].[Canvas_Enrollments]
                     ON [stg].[Canvas_Enrollments].[user_id] = [stg].[Canvas_Users].[user_id]
-                    WHERE [stg].[Canvas_Enrollments].[user_id] is not null and (last_login > getdate()-3  or last_activity_at > getdate()-3)
+                    WHERE [stg].[Canvas_Enrollments].[user_id] is not null and (last_login > getdate()-4  or last_activity_at > getdate()-2)
 
             """
             cursor.execute(query)
@@ -1849,8 +1849,7 @@ def timer_Canvas_History():
                         assetReadableCategory = ''
                     userId = user_id
                     query = "INSERT INTO [stg].[Canvas_History] (visited_at, visited_url, asset_readable_category, user_id) VALUES (?,?,?,?)"
-                    cursor.execute(query, visitedAt, visitedURL,
-                                   assetReadableCategory, userId)
+                    cursor.execute(query, visitedAt, visitedURL, assetReadableCategory, userId)
                     cnxn.commit()
             query = "EXEC dbo.Populate_dbo_Canvas_History"
             cursor.execute(query)
